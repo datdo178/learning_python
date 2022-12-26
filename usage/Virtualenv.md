@@ -30,5 +30,5 @@ Refer link:
 `python -m venv --help`<br>
 
 ## 4. Other
-- Permanently set PYTHONPATH for virtual env by add export line to ./venv/bin/active:<br>
+- Permanently set PYTHONPATH for virtual env by add export line to ./venv/bin/activate:<br>
 `export PYTHONPATH=<paths>`

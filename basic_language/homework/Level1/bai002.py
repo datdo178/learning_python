@@ -2,14 +2,17 @@
 Viết một chương trình có thể tính giai thừa của một số cho trước.
 Ví dụ, số cho trước là 8 thì kết quả đầu ra phải là 40320.
 """
-
-try:
-    num = int(input('Nhập số tính giai thừa: '))
-except:
-    num = int(input('Chỉ được nhập số nguyên >=1. Mời nhập lại:'))
-
-while num < 1:
-    num = int(input('Chỉ được nhập số nguyên >=1. Mời nhập lại:'))
+while True:
+    try:
+        num = int(input('Nhập số tính giai thừa (>= 1): '))
+    except Exception as Ex:
+        print(Ex)
+        continue
+    else:
+        if num < 1:
+            continue
+        else:
+            break
 
 result = 1
 while num > 1:

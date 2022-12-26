@@ -2,7 +2,7 @@
 
 ## 1. Packages:
 https://docs.python.org/3/tutorial/modules.html#packages
-- ech folder contain an empty `__init__.py` file
+- each folder contain an empty `__init__.py` file
 - root dir should be included in PYTHONPATH
 - Example:<br>
   - Create `__init__.py` in "sound", "effect" folders

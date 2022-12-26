@@ -4,3 +4,5 @@ venv/
 .idea/
 .git/
 .DS_store
+usage/__pycache__/
+.DS_Store
